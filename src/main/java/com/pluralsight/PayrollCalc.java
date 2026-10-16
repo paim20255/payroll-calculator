@@ -11,7 +11,22 @@ public class PayrollCalc {
         String Name = myScanner.nextLine();
 
         System.out.println("Hours worked: ");
-        Float worked = myScanner.nextFloat();
+        Float hoursWorked = myScanner.nextFloat();
+
+        myScanner.nextLine();
+
+        System.out.println("Employee pay rate: ");
+        Float payRate = myScanner.nextFloat();
+
+        myScanner.nextLine();
+
+        System.out.println("Your gross pay is: " + (payRate * hoursWorked));
+
+
+
+
+
+
 
 
 
